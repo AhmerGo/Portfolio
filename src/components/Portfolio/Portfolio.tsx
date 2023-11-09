@@ -90,9 +90,9 @@ export function Portfolio() {
             </div>
             <footer>
               <ul className="tech-list">
-                <li>ReactJs</li>
-                <li>JavaScript</li>
-                <li>Tailwind</li>
+                <li>Python</li>
+                <li>Discord.py</li>
+                <li>IMAPLib</li>
               </ul>
             </footer>
           </div>
