@@ -248,7 +248,7 @@ export function Portfolio() {
               </svg>
               <div className="project-links">
                 <a
-                  href="https://github.com/AhmerGo/LeetCodeSolutions"
+                  href="https://github.com/AhmerGo/RealtorSeleniumScript"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -257,16 +257,19 @@ export function Portfolio() {
               </div>
             </header>
             <div className="body">
-              <h3>Leetcode Solutions</h3>
+              <h3>Realtor Selenium Webscraper</h3>
               <p>
                 {" "}
-                LeetCode solutions, class tests, object oriented practice, and
-                data structures.
+                Enhance your real estate research with our Python-powered
+                script; it utilizes Selenium to intelligently extract agent
+                names and filtered property listings, delivering a seamless,
+                automated data collection experience.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
-                <li>Java</li>
+                <li>Selenium</li>
+                <li>Python</li>
               </ul>
             </footer>
           </div>
