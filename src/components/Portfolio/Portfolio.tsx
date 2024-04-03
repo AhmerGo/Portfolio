@@ -10,269 +10,368 @@ export function Portfolio() {
 
       <div className="projects">
         <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg
-                width="50"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#23ce6b "
-                stroke-width="1"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <title>Folder</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-              </svg>
-              <div className="project-links">
-                <a
-                  href="https://github.com/AhmerGo/Anime_Site_Go"
-                  target="_blank"
-                  rel="noreferrer"
+          <a
+            href="https://github.com/AhmerGo/Hardin-Helper-AI"
+            target="_blank"
+            rel="noreferrer"
+            className="project-link"
+          >
+            <div className="project">
+              <header>
+                <svg
+                  width="50"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#23ce6b "
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 >
-                  <img src={githubIcon} alt="GitHub" />
-                </a>
+                  <title>Folder</title>
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <div className="project-links">
+                  <a
+                    href="https://github.com/AhmerGo/Anime_Site_Go"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={githubIcon} alt="GitHub" />
+                  </a>
+                </div>
+              </header>
+              <div className="body">
+                <h3>EduNavigator</h3>
+                <p>
+                  {" "}
+                  Developed a cutting-edge NLP model from scratch and integrated
+                  it into a full-stack web app using React, MongoDB, and Flask.
+                  Leveraged advanced techniques to create an accurate and
+                  efficient model, and built a responsive UI with seamless data
+                  flow between frontend and backend components.
+                </p>
               </div>
-            </header>
-            <div className="body">
-              <h3>MERN-Stack Anime Site</h3>
-              <p>
-                {" "}
-                MERN Full-Stack anime site deployed and hosted on AWS servers
-              </p>
+              <footer>
+                <ul className="tech-list">
+                  <li>MongoDB</li>
+                  <li>Flask</li>
+                  <li>AI</li>
+                  <li>ChatBot</li>
+                </ul>
+              </footer>
             </div>
-            <footer>
-              <ul className="tech-list">
-                <li>AWS</li>
-                <li>MERN</li>
-                <li>Lua</li>
-              </ul>
-            </footer>
-          </div>
+          </a>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg
-                width="50"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#23ce6b "
-                stroke-width="1"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <title>Folder</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-              </svg>
-              <div className="project-links">
-                <a
-                  href="https://github.com/AhmerGo/Discord_Email_Bot"
-                  target="_blank"
-                  rel="noreferrer"
+          <a
+            href="https://github.com/AhmerGo/Anime_Site_Go"
+            target="_blank"
+            rel="noreferrer"
+            className="project-link"
+          >
+            <div className="project">
+              <header>
+                <svg
+                  width="50"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#23ce6b "
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 >
-                  <img src={githubIcon} alt="GitHub" />
-                </a>
+                  <title>Folder</title>
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <div className="project-links">
+                  <a
+                    href="https://github.com/AhmerGo/Anime_Site_Go"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={githubIcon} alt="GitHub" />
+                  </a>
+                </div>
+              </header>
+              <div className="body">
+                <h3>MERN-Stack Anime Site</h3>
+                <p>
+                  {" "}
+                  MERN Full-Stack anime site deployed and hosted on AWS servers
+                </p>
               </div>
-            </header>
-            <div className="body">
-              <h3>Discord Email Bot</h3>
-              <p>
-                Email-to-Discord Forwarder This script fetches unread emails
-                from email accounts and designates the emails to specified
-                channels based on source.
-              </p>
+              <footer>
+                <ul className="tech-list">
+                  <li>AWS</li>
+                  <li>MERN</li>
+                  <li>Lua</li>
+                </ul>
+              </footer>
             </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Python</li>
-                <li>Discord.py</li>
-                <li>IMAPLib</li>
-              </ul>
-            </footer>
-          </div>
+          </a>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg
-                width="50"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#23ce6b "
-                stroke-width="1"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <title>Folder</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-              </svg>
-              <div className="project-links">
-                <a
-                  href="https://github.com/AhmerGo/ChatBot-API-Webscraper"
-                  target="_blank"
-                  rel="noreferrer"
+          <a
+            href="https://github.com/AhmerGo/Discord_Email_Bot"
+            target="_blank"
+            rel="noreferrer"
+            className="project-link"
+          >
+            <div className="project">
+              <header>
+                <svg
+                  width="50"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#23ce6b "
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 >
-                  <img src={githubIcon} alt="Visitar site" />
-                </a>
+                  <title>Folder</title>
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <div className="project-links">
+                  <a
+                    href="https://github.com/AhmerGo/Discord_Email_Bot"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={githubIcon} alt="GitHub" />
+                  </a>
+                </div>
+              </header>
+              <div className="body">
+                <h3>Discord Email Bot</h3>
+                <p>
+                  Email-to-Discord Forwarder This script fetches unread emails
+                  from email accounts and designates the emails to specified
+                  channels based on source.
+                </p>
               </div>
-            </header>
-            <div className="body">
-              <h3>Chatbot API Webscraper</h3>
-              <p>
-                A script that integrates a Twitch bot to fetch and present a
-                streamer's recent Matchmaking Rating (MMR) changes in Valorant.
-              </p>
+              <footer>
+                <ul className="tech-list">
+                  <li>Python</li>
+                  <li>Discord.py</li>
+                  <li>IMAPLib</li>
+                </ul>
+              </footer>
             </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Javascript</li>
-                <li>Streambot Commands</li>
-              </ul>
-            </footer>
-          </div>
+          </a>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg
-                width="50"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#23ce6b "
-                stroke-width="1"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <title>Folder</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-              </svg>
-              <div className="project-links">
-                <a
-                  href="https://github.com/AhmerGo/Wordpress_Automation"
-                  target="_blank"
-                  rel="noreferrer"
+          <a
+            href="https://github.com/AhmerGo/ChatBot-API-Webscraper"
+            target="_blank"
+            rel="noreferrer"
+            className="project-link"
+          >
+            <div className="project">
+              <header>
+                <svg
+                  width="50"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#23ce6b "
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 >
-                  <img src={githubIcon} alt="GitHub" />
-                </a>
+                  <title>Folder</title>
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <div className="project-links">
+                  <a
+                    href="https://github.com/AhmerGo/ChatBot-API-Webscraper"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={githubIcon} alt="Visitar site" />
+                  </a>
+                </div>
+              </header>
+              <div className="body">
+                <h3>Chatbot API Webscraper</h3>
+                <p>
+                  A script that integrates a Twitch bot to fetch and present a
+                  streamer's recent Matchmaking Rating (MMR) changes in
+                  Valorant.
+                </p>
               </div>
-            </header>
-            <div className="body">
-              <h3>Wordpress Automation</h3>
-              <p>
-                {" "}
-                This script automates the process of setting up a WordPress site
-                on an AWS EC2 instance. It configures Apache, MySQL, PHP,
-                installs WordPress, and sets up a domain with SSL using Certbot.
-                It also automates the DNS record creation on AWS Route 53.
-              </p>
+              <footer>
+                <ul className="tech-list">
+                  <li>Javascript</li>
+                  <li>Streambot Commands</li>
+                </ul>
+              </footer>
             </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Shell</li>
-                <li>AWS</li>
-                <li>Automation</li>
-              </ul>
-            </footer>
-          </div>
+          </a>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg
-                width="50"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#23ce6b "
-                stroke-width="1"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <title>Folder</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-              </svg>
-              <div className="project-links">
-                <a
-                  href="https://github.com/AhmerGo/Portfolio"
-                  target="_blank"
-                  rel="noreferrer"
+          <a
+            href="https://github.com/AhmerGo/Wordpress_Automation"
+            target="_blank"
+            rel="noreferrer"
+            className="project-link"
+          >
+            <div className="project">
+              <header>
+                <svg
+                  width="50"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#23ce6b "
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 >
-                  <img src={githubIcon} alt="Visitar site" />
-                </a>
+                  <title>Folder</title>
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <div className="project-links">
+                  <a
+                    href="https://github.com/AhmerGo/Wordpress_Automation"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={githubIcon} alt="GitHub" />
+                  </a>
+                </div>
+              </header>
+              <div className="body">
+                <h3>Wordpress Automation</h3>
+                <p>
+                  {" "}
+                  This script automates the process of setting up a WordPress
+                  site on an AWS EC2 instance. It configures Apache, MySQL, PHP,
+                  installs WordPress, and sets up a domain with SSL using
+                  Certbot. It also automates the DNS record creation on AWS
+                  Route 53.
+                </p>
               </div>
-            </header>
-            <div className="body">
-              <h3>Portfolio</h3>
-              <p> This portfolio site</p>
+              <footer>
+                <ul className="tech-list">
+                  <li>Shell</li>
+                  <li>AWS</li>
+                  <li>Automation</li>
+                </ul>
+              </footer>
             </div>
-            <footer>
-              <ul className="tech-list">
-                <li>React</li>
-                <li>Tailwind</li>
-                <li>Typescript</li>
-              </ul>
-            </footer>
-          </div>
+          </a>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg
-                width="50"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#23ce6b "
-                stroke-width="1"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <title>Folder</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-              </svg>
-              <div className="project-links">
-                <a
-                  href="https://github.com/AhmerGo/RealtorSeleniumScript"
-                  target="_blank"
-                  rel="noreferrer"
+          <a
+            href="https://github.com/AhmerGo/Portfolio"
+            target="_blank"
+            rel="noreferrer"
+            className="project-link"
+          >
+            <div className="project">
+              <header>
+                <svg
+                  width="50"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#23ce6b "
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 >
-                  <img src={githubIcon} alt="GitHub" />
-                </a>
+                  <title>Folder</title>
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <div className="project-links">
+                  <a
+                    href="https://github.com/AhmerGo/Portfolio"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={githubIcon} alt="Visitar site" />
+                  </a>
+                </div>
+              </header>
+              <div className="body">
+                <h3>Portfolio</h3>
+                <p> This portfolio site</p>
               </div>
-            </header>
-            <div className="body">
-              <h3>Realtor Selenium Webscraper</h3>
-              <p>
-                {" "}
-                Enhance your real estate research with our Python-powered
-                script; it utilizes Selenium to intelligently extract agent
-                names and filtered property listings, delivering a seamless,
-                automated data collection experience.
-              </p>
+              <footer>
+                <ul className="tech-list">
+                  <li>React</li>
+                  <li>Tailwind</li>
+                  <li>Typescript</li>
+                </ul>
+              </footer>
             </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Selenium</li>
-                <li>Python</li>
-              </ul>
-            </footer>
-          </div>
+          </a>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <a
+            href="https://github.com/AhmerGo/RealtorSeleniumScript"
+            target="_blank"
+            rel="noreferrer"
+            className="project-link"
+          >
+            <div className="project">
+              <header>
+                <svg
+                  width="50"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#23ce6b "
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <title>Folder</title>
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
+                <div className="project-links">
+                  <a
+                    href="https://github.com/AhmerGo/RealtorSeleniumScript"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src={githubIcon} alt="GitHub" />
+                  </a>
+                </div>
+              </header>
+              <div className="body">
+                <h3>Realtor Selenium Webscraper</h3>
+                <p>
+                  {" "}
+                  Python powered script that utilizes Selenium to intelligently
+                  extract agent names and filtered property listings, delivering
+                  a seamless, automated data collection experience.
+                </p>
+              </div>
+              <footer>
+                <ul className="tech-list">
+                  <li>Selenium</li>
+                  <li>Python</li>
+                </ul>
+              </footer>
+            </div>
+          </a>
         </ScrollAnimation>
       </div>
     </Container>
